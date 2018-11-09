@@ -68,3 +68,4 @@
 # - MKL_NUM_THREADS=1        Disable multi-threading of Intel MKL
 # - OPENBLAS_NUM_THREADS=1   Disable multi-threading of OpenBLAS
 
+export SPARK_JAVA_OPTS="-Dspark.kryoserializer.buffer.mb=10 -Dspark.cleaner.ttl=43200"
